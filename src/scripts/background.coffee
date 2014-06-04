@@ -4,6 +4,7 @@ loggedIn = no
 count = 0
 requesting = no
 NOTIFICATIONS_URL = 'https://github.com/notifications'
+LOGIN_URL = 'https://github.com/login'
 ALARM_NAME = 'alerm_update_count'
 
 window.updateCount = updateCount = (alarm)->
