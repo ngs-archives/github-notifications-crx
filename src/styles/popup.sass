@@ -1,0 +1,43 @@
+@import "compass"
+
+@font-face
+  font-family: octicons-embedded
+  src: url('../vendor/octicons.woff') format('woff')
+  font-weight: normal
+  font-style: normal
+
+body#popup
+  -webkit-user-select: none
+  min-width: 550px
+  padding: 20px 0 0 0
+  margin: 0
+  .spinner
+    display: block
+    padding: 20px 0
+    img
+      display: block
+      width: 64px
+      height: 64px
+      margin: 0 auto
+  .octicon, .mega-octicon
+    font-family: octicons-embedded
+  .no-unread
+    padding: 0 20px
+  .notifications-list
+    float: none
+    width: 510px
+    margin: 0 auto
+  .box-actions
+    display: none
+  .notification-actions
+    .delete, .mute
+      display: none
+    .age
+      text-align: right
+      width: 100px
+
+ul
+  padding: 0
+  margin: 0
+a:focus, button:focus
+  outline: none

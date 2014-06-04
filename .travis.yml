@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 0.10.26
+env:
+  global:
+  - CRX_PRIVATE_KEY=$TRAVIS_BUILD_DIR/github-notifications-chrome.pem
+before_install:
+  - "echo 'gem: --no-ri --no-rdoc' > ~/.gemrc"
+  - for i in {0..36}; do eval $(printf "echo -n \$CRX_PRIVATE_KEY_%02d\n" $i); done | base64 --decode > $CRX_PRIVATE_KEY
+script:
+  - 'npm run-script dist'
+  - 'npm test'
+after_success:
+  - 'npm run-script s3'

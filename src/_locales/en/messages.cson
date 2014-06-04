@@ -1,0 +1,15 @@
+appName:
+  message: "GitHub Notifications"
+  description: "The name of the application"
+
+appDescription:
+  message: "Extension to check GitHub notifications"
+  description: "The description of the application"
+
+notificationsLabel:
+  message: "Notifications"
+  description: "Heading label for notifications"
+
+seeAllLabel:
+  message: "See all"
+  description: "Anchor label for see all link"

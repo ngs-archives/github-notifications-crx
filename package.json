@@ -1,0 +1,38 @@
+{
+  "name": "github-notifications-crx",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "cson-safe": "^0.1.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-jasmine": "~0.4.2",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-crx": "~0.3.3",
+    "grunt-cson": "^0.8.0",
+    "grunt-curl": "^1.5.1",
+    "grunt-slim": "^0.1.0",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.0",
+    "grunt-contrib-compass": "^0.8.0",
+    "grunt-wiredep": "^1.7.0",
+    "grunt-contrib-jade": "^0.12.0",
+    "grunt-s3": "^0.2.0-alpha.3",
+    "dotenv": "^0.2.8",
+    "grunt-contrib-compress": "^0.9.1",
+    "grunt-cli": "^0.1.13",
+    "bower": "^1.3.4"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "install": "gem install compass",
+    "dist": "grunt dist",
+    "s3": "grunt s3"
+  }
+}
