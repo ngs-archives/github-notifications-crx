@@ -20,8 +20,6 @@ Screenshots
 
 ![](screen1.png)
 
-![](screen2.png)
-
 Promotional tile images
 -----------------------
 
