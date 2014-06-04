@@ -4,7 +4,7 @@ NOTIFICATIONS_URL = 'https://github.com/notifications'
 STATS_URL = 'https://github.com/_stats'
 
 service   = analytics.getService 'github_notifications'
-tracker   = service.getTracker 'UA-200187-36'
+tracker   = service.getTracker 'UA-200187-37'
 tracker.sendAppView 'Popup'
 
 _ajax = jQuery.ajax
