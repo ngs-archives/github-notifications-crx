@@ -8,7 +8,7 @@ module.exports = (grunt, config) ->
     expand: yes
     cwd:  '<%= config.app %>'
     src:  [
-      '**/*.{html,json,css,png}'
+      '**/*.{html,json,css,png,woff}'
       'vendor/*.{js,css}'
       '!bower_components/**/*'
       'bower_components/*/dist/**/*.min.css'
