@@ -1,6 +1,6 @@
 {
   "name": "qithub-notifications-crx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "jquery": "~2.1.1"
   },
