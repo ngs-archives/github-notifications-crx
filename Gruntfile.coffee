@@ -28,11 +28,11 @@ module.exports = (grunt) ->
     s3path:   ''
     manifest: CSON.parse grunt.file.read 'src/manifest.cson'
     urls:
-      css1: 'https://assets-cdn.github.com/assets/github-3fbc8ed7662a68f636e9db2134408ae87d1fa298.css'
-      css2: 'https://assets-cdn.github.com/assets/github2-f8705d17741c213939d96bed1f5c89eb7d96b9f6.css'
-      frameworks: 'https://assets-cdn.github.com/assets/frameworks-f120624597a361065113e4c5852f2894459aba3a.js'
+      css1: 'https://assets-cdn.github.com/assets/github-45a6b17d0e8fc68a83b5b85ae19012e6daf9a07b.css'
+      css2: 'https://assets-cdn.github.com/assets/github2-0ee6a4d6913e5429aa63ee76db3b03a8f84e7aaf.css'
+      frameworks: 'https://assets-cdn.github.com/assets/frameworks-ec74d07786e954c40f894a87e76f9896dc859586.js'
       ga: 'https://raw.githubusercontent.com/GoogleChrome/chrome-platform-analytics/master/google-analytics-bundle.js'
-      js: 'https://assets-cdn.github.com/assets/github-063276c9ee5974f7ef1bf34b7a8f7c5f4a4ea72e.js'
+      js: 'https://assets-cdn.github.com/assets/github-f9f988d91282b8bfa90164066e6a3515f59b5c32.js'
       octicons: 'https://assets-cdn.github.com/assets/octicons-3c84a0c3eaadc6b1de3f87d18e14aeec05bf8be4.woff'
 
   if process.env.TRAVIS
